@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogdown on Profa. Renata Oliveira</title>
+    <link>https://retaoliveira.github.io/site/tags/blogdown/</link>
+    <description>Recent content in Blogdown on Profa. Renata Oliveira</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;&lt;img alt=&#34;Licença Creative Commons&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Este obra está licenciado com uma Licença &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional&lt;/a&gt;. &amp;copy; {year}</copyright>
+    <lastBuildDate>Sat, 26 Dec 2020 19:23:01 -0300</lastBuildDate>
+    
+	    <atom:link href="https://retaoliveira.github.io/site/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Desafios que enfrentei para construir e publicar este site com Blogdown e Hugo</title>
+      <link>https://retaoliveira.github.io/site/desafios-que-enfrentei-para-construir-e-publicar-este-site-com-blogdown-e-hugo/</link>
+      <pubDate>Sat, 26 Dec 2020 19:23:01 -0300</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/desafios-que-enfrentei-para-construir-e-publicar-este-site-com-blogdown-e-hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

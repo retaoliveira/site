@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="generator" content="Hugo 0.79.1" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Renata Oliveira">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Disciplina do PPGA">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://retaoliveira.github.io/site/courses/dados_pos/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#FC6F5C">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/site/css/academia.min.65e6534c69f0cece155def8e575de451.css">
+
+  
+
+  
+  
+  
+  
+
+  
+  <link rel="alternate" href="/site/courses/dados_pos/index.xml" type="application/rss+xml" title="Profa. Renata Oliveira">
+  <link rel="feed" href="/site/courses/dados_pos/index.xml" type="application/rss+xml" title="Profa. Renata Oliveira">
+  
+
+  <link rel="manifest" href="/site/site.webmanifest">
+  <link rel="icon" type="image/png" href="/site/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/site/img/icon-192.png">
+
+  <link rel="canonical" href="https://retaoliveira.github.io/site/courses/dados_pos/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@retaoliveira">
+  <meta property="twitter:creator" content="@retaoliveira">
+  
+  <meta property="og:site_name" content="Profa. Renata Oliveira">
+  <meta property="og:url" content="https://retaoliveira.github.io/site/courses/dados_pos/">
+  <meta property="og:title" content="Análise de dados aplicada ao processo decisório | Profa. Renata Oliveira">
+  <meta property="og:description" content="Disciplina do PPGA"><meta property="og:image" content="https://retaoliveira.github.io/site/img/icon-192.png">
+  <meta property="twitter:image" content="https://retaoliveira.github.io/site/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2020-12-24T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Análise de dados aplicada ao processo decisório | Profa. Renata Oliveira</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/site/">Profa. Renata Oliveira</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/site/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/site/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Cursos</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/site/courses/dados_pos/"><span>Análise de Dados aplicada ao processo decisório</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/site/courses/dados_grad/"><span>Análise de Dados para gestão organizacional</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/site/courses/log/"><span>Logística</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/site/#contact"><span>Contato</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/site/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item active">
+    <a class="docs-toc-link" href="/site/courses/dados_pos/">Análise de dados aplicada ao processo decisório</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/site/courses/dados_pos/projects/">Projetos</a>
+      </li>
+      
+      <li >
+        <a href="/site/courses/dados_pos/install/">Instalação de R, RStudio e Git</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/site/courses/dados_pos/pag_html/">Unidade 1 - Documentos reprodutíveis</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/site/courses/dados_pos/pag_html/">Páginas em html para comunicação</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/site/courses/dados_pos/data_mining/">Unidade 2 - Estrutura de dados no R</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/site/courses/dados_pos/data_mining/">Tipos de dados, objetos e operadores no R</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/site/courses/dados_pos/estrutura_dados_r/">Unidade 3 - Funções para manipulação e tratamento de dados</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/site/courses/dados_pos/estrutura_dados_r/">Manipulação e limpeza de dados</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/site/courses/dados_pos/intro_rmarkdown/">Unidade 4 - Estatística descritiva e mineração de dados</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/site/courses/dados_pos/intro_rmarkdown/">Introdução à mineração de dados</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/site/courses/dados_pos/text_analysis/">Unidade 5 - Análises textuais sob perspectiva analítica</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/site/courses/dados_pos/text_analysis/">Análise de sentimento por meio de dados do Twitter</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/site/courses/dados_pos/geodata/">Unidade 6 - Localização como atributo de suporte à decisão</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/site/courses/dados_pos/geodata/">Dados espaciais</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#ementa-da-disciplina">Ementa da disciplina</a></li>
+    <li><a href="#objetivos-de-aprendizagem">Objetivos de aprendizagem</a></li>
+    <li><a href="#planejamento-de-encontros-síncronos">Planejamento de encontros síncronos</a></li>
+    <li><a href="#proposta-de-avaliação-da-aprendizagem">Proposta de avaliação da aprendizagem</a></li>
+    <li><a href="#recursos-necessários">Recursos necessários</a></li>
+    <li><a href="#bibliografia-recomendada">Bibliografia recomendada</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Análise de dados aplicada ao processo decisório</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            <h2 id="ementa-da-disciplina">Ementa da disciplina</h2>
+<p>Comunicação e reprodutibilidade de dados, relatórios, apresentações e produções científicas em Rmarkdown.
+Tipos de dados, Importação de base de dados, criação de objeto, operadores aritméticos, de comparação e lógicos no R.
+Funções para manipulação e tratamento de dados.
+Estatística descritiva e mineração de dados.
+Análise textual sob perspectiva analítica.
+Tratamento e análise da informação espacial.
+Visualização e comunicação de informações gerenciais e científicas como subsídio ao processo decisório no R e RStudio.</p>
+<h2 id="objetivos-de-aprendizagem">Objetivos de aprendizagem</h2>
+<p>Por meio desta disciplina, os alunos desenvolverão competências para:</p>
+<ol>
+<li>Implementar comunicação e reprodutibilidade de instrumentos gerenciais e científicos por meio de linguagem RMarkdown e Git.</li>
+<li>Desenvolver competências para busca, manipulação e tratamento de dados utilizando R e RStudio.</li>
+<li>Implementar métodos de estatística descritiva exploratória e mineração de dados para gestão organizacional.</li>
+<li>Organizar dados e produzir análises textuais sob perspectiva analítica.</li>
+<li>Espacializar dados e produzir análises gerenciais que contemplem a localização como atributo decisório.</li>
+</ol>
+<h2 id="planejamento-de-encontros-síncronos">Planejamento de encontros síncronos</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Data</strong></th>
+<th><strong>CH</strong></th>
+<th><strong>Assunto</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12/01</td>
+<td>2h</td>
+<td>Ambientação no R, RStudio, Git-Github e Rpubs.</td>
+</tr>
+<tr>
+<td>19/01</td>
+<td>2h</td>
+<td>Identificação, caracterização e diagnóstico de problemas e proposição de soluções em processos organizacionais e científicos.</td>
+</tr>
+<tr>
+<td>26/01</td>
+<td>2h</td>
+<td>RMarkdown como instrumento para produção de documentos estáticos e interativos, produção de websites, produção de dashboards, apresentações, livros e artigos científicos.</td>
+</tr>
+<tr>
+<td>02/02</td>
+<td>2h</td>
+<td>RMarkdown como instrumento para produção de documentos estáticos e interativos, produção de websites, produção de dashboards, apresentações, livros e artigos científicos.</td>
+</tr>
+<tr>
+<td>09/02</td>
+<td>2h</td>
+<td>Estrutura de dados no R: tipos de dados, importação de base de dados, criação de objeto (vetores, matrizes, data frames), operadores aritméticos, de comparação e lógicos.</td>
+</tr>
+<tr>
+<td>23/02</td>
+<td>2h</td>
+<td>Funções para manipulação e tratamento de dados. Estatística descritiva e mineração de dados.</td>
+</tr>
+<tr>
+<td>02/03</td>
+<td>2h</td>
+<td>Funções para manipulação e tratamento de dados. Estatística descritiva e mineração de dados.</td>
+</tr>
+<tr>
+<td>09/03</td>
+<td>2h</td>
+<td>Organização dados e produção de análises textuais sob perspectiva analítica.</td>
+</tr>
+<tr>
+<td>16/03</td>
+<td>2h</td>
+<td>Espacialização dados e produção de análises gerenciais que contemplem a localização como atributo decisório.</td>
+</tr>
+<tr>
+<td>23/03</td>
+<td>2h</td>
+<td>Espacialização dados e produção de análises gerenciais que contemplem a localização como atributo decisório.</td>
+</tr>
+<tr>
+<td>30/03</td>
+<td>2h</td>
+<td>Visualização e comunicação de informações gerenciais e científicas.</td>
+</tr>
+<tr>
+<td>06/04</td>
+<td>2h</td>
+<td>Implementação de R e RStudio para identificação, caracterização e diagnóstico de problemas e proposição de soluções em processos organizacionais e científicos.</td>
+</tr>
+<tr>
+<td><strong>Total de Horas</strong></td>
+<td></td>
+<td>24 horas</td>
+</tr>
+</tbody>
+</table>
+<h2 id="proposta-de-avaliação-da-aprendizagem">Proposta de avaliação da aprendizagem</h2>
+<p>A aprendizagem na disciplina será avaliada por meio da consolidação de atividades alinhadas com os objetivos de aprendizagem e por meio da elaboração de um projeto transversal aos objetivos.</p>
+<table>
+<thead>
+<tr>
+<th>Pontos</th>
+<th>Entrega</th>
+<th>Atividade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>09/02</td>
+<td>Construção de instrumentos de comunicação científica e organizacional por meio de RMarkdown como instrumento para produção de documentos estáticos e interativos, produção de websites, produção de dashboards, apresentações, livros e artigos científicos.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>09/03</td>
+<td>Coleta, importação e tratamento de dados no R utilizando funções para manipulação e tratamento de dados. Estatística descritiva e mineração de dados.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>16/03</td>
+<td>Análise textual por meio do R. Realizar a organização dados e produção de análises textuais sob perspectiva analítica.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>30/03</td>
+<td>Espacialização dados e produção de análises gerenciais que contemplem a localização como atributo decisório.</td>
+</tr>
+<tr>
+<td>40</td>
+<td>06/04</td>
+<td>Projeto transversal que contemple um objetivo gerencial e a implementação de R e RStudio para identificação, caracterização e diagnóstico de problemas e proposição de soluções em processos organizacionais e científicos.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>06/04</td>
+<td>Autoavaliação</td>
+</tr>
+<tr>
+<td>TOTAL:</td>
+<td></td>
+<td>100 pontos</td>
+</tr>
+</tbody>
+</table>
+<h2 id="recursos-necessários">Recursos necessários</h2>
+<p>Computador com Sistema Operacional à escolha do estudante, conexão à internet, câmera e microfone.
+Os softwares a serem instalados são:</p>
+<ul>
+<li>R - <a href="https://cran.r-project.org/bin/windows/base/">https://cran.r-project.org/bin/windows/base/</a></li>
+<li>RStudio - <a href="https://rstudio.com/products/rstudio/download/">https://rstudio.com/products/rstudio/download/</a></li>
+<li>Git - <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></li>
+</ul>
+<p>Os alunos deverão ter uma conta gratuita na plataforma <code>github.com</code>.</p>
+<p>A plataforma para eventos síncronos será decidida junto à turma.</p>
+<p>Turma Virtual do SIGAA para postagens de conteúdos e outras comunicações.</p>
+<h2 id="bibliografia-recomendada">Bibliografia recomendada</h2>
+<ul>
+<li>FÁVERO, Luiz Paulo. Análise de dados: modelos de regressão com Excel, STATA e SPSS. Rio de Janeiro: Elsevier, 2015.</li>
+<li>MINGOTI, Sueli Aparecida. Análise de dados através de métodos de estatística multivariada: uma abordagem aplicada. Belo Horizonte: Editora UFMG, 2005.</li>
+<li>CUESTA, H. Practical Data Analysis. Birmingham, UK: Packt Publishing, 2013. Disponível em: <a href="http://search.ebscohost.com/login.aspx?direct=true&amp;db=nlebk&amp;AN=654543&amp;lang=pt-br&amp;site=ehost-live">http://search.ebscohost.com/login.aspx?direct=true&amp;db=nlebk&amp;AN=654543&amp;lang=pt-br&amp;site=ehost-live</a>. Acesso em: 22 out. 2020.</li>
+<li>SHARDA, Ramesh. Business intelligence and analytics: systems for decision support. 10. ed. Boston: Pearson, 2015.</li>
+<li>NISHISATO, S. Analysis of Categorical Data: dual scaling and its applications. Toronto: University of Toronto Press, Scholarly Publishing Division, 2018. Disponível em: <a href="http://search.ebscohost.com/login.aspx?direct=true&amp;db=nlebk&amp;AN=2027628&amp;lang=pt-br&amp;site=ehost-live">http://search.ebscohost.com/login.aspx?direct=true&amp;db=nlebk&amp;AN=2027628&amp;lang=pt-br&amp;site=ehost-live</a>. Acesso em: 22 out. 2020.</li>
+<li>LAURSEN, Gert H. N. Business Analytics for Sales and Marketing Managers: how to compete in the information age. Hoboken, N.Y.: Wiley, 2011. Disponível em: <a href="http://search.ebscohost.com/login.aspx?direct=true&amp;db=nlebk&amp;AN=363582&amp;lang=pt-br&amp;site=ehost-live">http://search.ebscohost.com/login.aspx?direct=true&amp;db=nlebk&amp;AN=363582&amp;lang=pt-br&amp;site=ehost-live</a>. Acesso em: 22 out. 2020.</li>
+<li>DAVENPORT, Thomas H. Inteligência Analítica nos Negócios: como usar a análise de informações para obter resultados superiores. Tradução: Ana Beatriz Rodrigues. São Paulo: Elsevier, 2010.</li>
+</ul>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          Last updated on Dec 24, 2020
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        
+        <p>
+          <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->Este obra está licenciado com uma Licença <!-- raw HTML omitted -->Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional<!-- raw HTML omitted -->. © 2020 &middot; 
+          Powered by
+          <a href="https://gethugothemes.com" target="_blank" rel="noopener">Gethugothemes</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/retaoliveira" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="skype:retaoliveira"  title="Skype Me"><i class="fab fa-skype" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/site/js/academia.min.7276a6a3624de715a5c7f54c7c07696d.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

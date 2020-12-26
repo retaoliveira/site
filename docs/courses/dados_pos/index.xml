@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Análise de dados aplicada ao processo decisório on Profa. Renata Oliveira</title>
+    <link>https://retaoliveira.github.io/site/courses/dados_pos/</link>
+    <description>Recent content in Análise de dados aplicada ao processo decisório on Profa. Renata Oliveira</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;&lt;img alt=&#34;Licença Creative Commons&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Este obra está licenciado com uma Licença &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional&lt;/a&gt;. &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 24 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://retaoliveira.github.io/site/courses/dados_pos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Projetos</title>
+      <link>https://retaoliveira.github.io/site/courses/dados_pos/projects/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/courses/dados_pos/projects/</guid>
+      <description>&lt;h2 id=&#34;etapas-essenciais-para-desenvolvimento-de-um-projeto-de-suporte-à-decisão-que-contemple-análise-de-dados&#34;&gt;Etapas essenciais para desenvolvimento de um projeto de suporte à decisão que contemple análise de dados&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Definição do problema - O primeiro e mais crítico passo é delinear as questões que pretende abordar por meio da análise de dados e desenhar hipóteses a partir da caracterização do problema.&lt;/li&gt;
+&lt;li&gt;Coleta de dados - A coleta de dados é um passo muito crucial e não tão fácil como parece. O processo requer tempo e esforço. Nenhum conjunto de dados contém dados como se espera e envolve pesquisa, arranjos, reordenações e montagem final.&lt;/li&gt;
+&lt;li&gt;Limpeza de dados - Se quiser que os seus resultados sejam consistentes, deve certificar-se de que a limpeza dos dados foi feita corretamente. Na essência, a limpeza de dados elimina dados desnecessários e duplicados da coleta de dados.&lt;/li&gt;
+&lt;li&gt;Análise dos dados - Nesta fase, tem de detectar tendências e padrões nos dados coletados, agrupá-los em conformidade, e compreender o comportamento dos dados para que seja possível caracterizar o processo em investigação.&lt;/li&gt;
+&lt;li&gt;Modelar os dados - Nesta fase, os dados são divididos em duas partes - uma para formação e desenvolvimento de modelos, e a outra para testes.&lt;/li&gt;
+&lt;li&gt;Otimização e implementação do modelo - Nesta etapa, o modelo é implementado visando acurácia e eficiência das análises.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ideias-e-tópicos-do-projeto-top-r&#34;&gt;Ideias e Tópicos do Projeto Top R&lt;/h2&gt;
+&lt;p&gt;Por agora, é bastante evidente que a linguagem de programação R tem um imenso potencial para aumentar os seus conhecimentos em Ciência e Análise de Dados. Na secção seguinte, discutiremos alguns dos tópicos de projetos de R mais tendenciais que pode utilizar para dominar as suas competências em Machine Learning and Data Science.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Análise de Sentimento&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A análise dos sentimentos é o processo de análise das palavras para determinar opiniões e sentimentos que têm diferentes polaridades - positivas, negativas ou neutras. O método também se baseia nos nomes polarity detection e opinion mining. Neste tipo de classificação, os dados (sentimentos) são categorizados em diferentes classes; estas classes podem ser binárias (positivas e negativas), neutras ou múltiplas (felizes, tristes, zangadas, e assim por diante).&lt;/p&gt;
+&lt;p&gt;Então, qual é a sua utilidade? Bem, o processo de análise dos sentimentos pode ser utilizado para determinar a natureza das opiniões reflectidas nos websites, feeds das redes sociais, documentos, etc. O projeto de análise dos sentimentos pode ser construído em &amp;ldquo;R&amp;rdquo;, utilizando os conjuntos de dados do pacote &amp;ldquo;janeaustenr&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Análise de dados de Uber&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Uma componente crucial da Aprendizagem Automática é a narrativa de dados; ajuda as empresas a compreenderem os antecedentes e o contexto de várias operações. A visualização de dados ajuda as empresas a compreender conjuntos de dados complexos, o que, por sua vez, ajuda-as a tomar decisões.&lt;/p&gt;
+&lt;p&gt;O Projeto de Análise Uber é um projeto de visualização de dados, onde R e as suas bibliotecas são utilizadas para analisar parâmetros ou variáveis como as viagens durante um dia, ou as viagens mensais durante um ano. Estas visualizações para diferentes períodos de tempo anuais são criadas utilizando o &amp;lsquo;Uber Pickups in New York City Dataset&amp;rsquo;. As bibliotecas e pacotes essenciais de R que precisam de ser importados para este projeto incluem - &amp;ldquo;ggplot2&amp;rdquo;, &amp;ldquo;ggthemes&amp;rdquo;, &amp;ldquo;lubridate&amp;rdquo;, &amp;ldquo;dplyr&amp;rdquo;, &amp;ldquo;tidyr&amp;rdquo;, &amp;ldquo;DT&amp;rdquo;, e &amp;ldquo;scales&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Sistema de Recomendação de Filmes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Já alguma vez se perguntou como é que o Netflix sugere filmes e séries web dos géneros que lhe atraem instantaneamente? Diferentes plataformas de streaming como Netflix e Amazon Prime utilizam algo conhecido como o Sistema de Recomendação; utiliza um processo de filtragem para sugerir conteúdos com base nas preferências do utilizador, padrões de observação e histórico de navegação. Os dados de navegação do utilizador fornecem a entrada para o Sistema de Recomendações.&lt;/p&gt;
+&lt;p&gt;Enquanto um Sistema de Recomendação baseado no conteúdo sugere filmes que são semelhantes ao que se viu no passado, a Recomendação de Filtragem Colaborativa fornece sugestões com respeito a outros utilizadores com as mesmas preferências e históricos de visualização. Um Sistema de Recomendação pode ser construído em R usando o &amp;ldquo;MovieLens Dataset&amp;rdquo; e os pacotes - &amp;ldquo;ggplot2&amp;rdquo;, &amp;ldquo;recommendenderlab&amp;rdquo;, &amp;ldquo;data.table&amp;rdquo;, e &amp;ldquo;reshape2&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Segmentação de clientes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A segmentação de clientes é um dos tópicos mais importantes do projeto R. Sempre que as empresas precisam de identificar e visar a base de clientes mais potencial, o método de Segmentação de Clientes vem a calhar. Neste método, a base de clientes é dividida e agrupada de acordo com algumas características semelhantes que são relevantes para o mercado, tais como idade, sexo, interesses, e hábitos de despesa.&lt;/p&gt;
+&lt;p&gt;É uma forma eficiente para as empresas desenvolverem as suas estratégias de marketing com uma probabilidade mínima de riscos relacionados com o investimento. Os dados recolhidos pelas empresas ajudam-nas a compreender melhor as preferências e requisitos dos clientes individuais que acabam por obter maiores lucros. O projeto de Segmentação de Clientes em R utiliza o algoritmo K significa clustering para agrupar os conjuntos de dados não rotulados e o &amp;ldquo;Mall Customers Dataset&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. Detecção de Fraudes com Cartão de Crédito&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A linguagem de programação R encontra outra aplicação na detecção de transacções fraudulentas com cartões de crédito. Neste projeto, são utilizados vários algoritmos de aprendizagem mecânica que podem diferenciar as transacções falsificadas das genuínas. O projeto de detecção de cartões de crédito em R faz uso de múltiplos algoritmos, tais como Regressão Logística, Árvores de Decisão, Classificadores Gradient Boosting, e Redes Neuronais Artificiais.&lt;/p&gt;
+&lt;p&gt;O conjunto de dados de Transacções com Cartões é utilizado neste projeto de detecção de fraudes com cartões de crédito em R; este conjunto de dados contém transacções fraudulentas, bem como transacções autênticas. O projeto tem as seguintes etapas - importação dos conjuntos de dados contendo as transacções com cartão de crédito, exploração dos dados, manipulação e estruturação dos dados, modelagem dos dados, adaptação do modelo no algoritmo de Regressão Logística, e finalmente, implementação da Árvore de Decisão, Rede Neural Artificial, e modelos de Gradient Boosting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6. Predição de Preferência de Vinho&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A prova de vinhos é uma profissão única em si mesma. Pode ser bastante desafiante prever o que o cliente pode gostar, com base nas suas preferências passadas. Contudo, seria mais fácil para os restaurantes recomendar um vinho aos seus clientes se os seus gostos e preferências fossem previamente identificados; é aqui que o projeto de aprendizagem da máquina R pode ser aplicado. As propriedades físico-químicas do vinho podem ser utilizadas para processos de extracção de dados e identificar as preferências dos clientes. Este projeto particular de aprendizagem da máquina R utiliza o conjunto de dados de qualidade do vinho.&lt;/p&gt;
+&lt;p&gt;A abordagem adotada no projeto de Previsão das Preferências do Vinho pode ser aplicada a produtos semelhantes para modelar os gostos dos clientes, ajudando assim no marketing alvo. Outra aplicação do R pode ser na previsão da qualidade do vinho, tomando parâmetros físico-químicos como variáveis de entrada para determinar a qualidade do vinho.&lt;/p&gt;
+&lt;p&gt;**7. Projecto de recomendação musical **&lt;/p&gt;
+&lt;p&gt;Um sistema de recomendação musical funciona de forma semelhante a um sistema de recomendação de filmes, a única diferença é que, em vez de filmes, recomendará música aos utilizadores. Este é um projecto Python + R. O conjunto de dados utilizado para este projecto é da KKBOX, o principal serviço de transmissão de música na Ásia, com uma biblioteca que contém mais de 30 milhões de faixas musicais.&lt;/p&gt;
+&lt;p&gt;Neste projecto, será construído um sistema ML usando Python e R que pode prever as hipóteses de um utilizador ouvir uma música em loop após o primeiro evento de audição ter sido desencadeado dentro de uma janela de tempo específica. Aqui, os conjuntos de dados de formação e teste são escolhidos a partir do histórico de audição de diferentes utilizadores num determinado período de tempo.&lt;/p&gt;
+&lt;p&gt;Assim, por exemplo, se um(s) evento(s) de audição recorrente(s) for desencadeado dentro de um mês após o primeiro evento de audição observável de um utilizador, o sistema marca o alvo como 1 no conjunto de treino, e caso contrário, marca 0. Este projecto é a oportunidade perfeita para aprender a realizar EDA básica para se obterem conhecimentos a partir dos dados.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;8. Projecto de identificação do pacote de produtos&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O conceito de agrupamento de produtos não é novidade no campo da comercialização. Na abordagem do agrupamento de produtos, os diferentes produtos são agrupados e vendidos como uma única unidade a um preço específico (geralmente preço com desconto). Isto permite aos marqueteiros encorajar os clientes a comprar mais dos seus produtos. Talvez o melhor exemplo de um pacote de produtos seja o McDonald&amp;rsquo;s Happy Meal.&lt;/p&gt;
+&lt;p&gt;Neste projecto Data Science, o foco principal será a segmentação subjectiva, uma técnica de clustering que pode ajudar a identificar os melhores pacotes de produtos nos dados de vendas. Aqui, tomaremos um conjunto de dados de transacções de vendas semanais contendo as quantidades adquiridas de diferentes produtos ao longo de algumas semanas.&lt;/p&gt;
+&lt;p&gt;O conjunto de dados incluirá também valores normalizados. Ao utilizar este conjunto de dados, o objectivo é descobrir quais os produtos que podem ser agrupados para fazer combos excelentes para os clientes. Enquanto a abordagem tradicional utiliza a Análise de Cesto de Mercado para identificar pacotes de produtos, neste projecto, o nosso foco é comparar e analisar a importância relativa do agrupamento de séries temporais na determinação de pacotes de produtos a partir de dados de vendas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;9. Análise da adesão ao distanciamento social como medidas não farmacológicas de contenção da difusão do COVID-19&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Relacionar a adesão com índices de desenvolvimento humano por meio de dados da Google, Apple, Brasil.io e InLoco.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Instalação de R, RStudio e Git</title>
+      <link>https://retaoliveira.github.io/site/courses/dados_pos/install/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/courses/dados_pos/install/</guid>
+      <description>&lt;h3 id=&#34;por-que-escolhi-essas-linguagens-para-este-curso&#34;&gt;Por que escolhi essas linguagens para este curso?&lt;/h3&gt;
+&lt;p&gt;Sabe-se que:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;A maioria das pessoas interessadas em aprender a analisar dados para suporte ao processo decisório, aplicado à gestão de negócios ou à proposição de políticas públicas não são cientistas da computação.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A maioria das atividades em gestão envolve comunicação, estruturados como relatórios, dashboards, e aplicações web interactivas que permitam aos decisores entender a estrutura e a dinâmica dos processos e tomar decisões bem informadas visando o cumprimento dos objetivos inicialmente propostos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Assim, o R é adequado para processos em que as organizações precisam testar teorias, explicar as relações de causa e efeito, iterar rapidamente, e tomar decisões. Além disso, os recursos de comunicação são eficientes e diversificados, incluindo relatórios empresariais, apresentações e aplicações web que podem ser construídos utilizando um fluxo de trabalho reproduzível.&lt;/p&gt;
+&lt;h3 id=&#34;r&#34;&gt;R&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/bin/windows/base/&#34;&gt;Baixar e instalar o R&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;No link acima é apresentado o processo de instalação para Windows. No mesmo site é possível encontrar procedimentos de instalação para outros sistemas operacionais.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Links adicionais&lt;/strong&gt;
+&lt;a href=&#34;https://rpubs.com/cassiorampinelli/488999&#34;&gt;Visão geral e primeiros passos com R e RStudio&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;rstudio&#34;&gt;RStudio&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://rstudio.com/products/rstudio/download/&#34;&gt;Baixar e instalar o RStudio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;No link acima é apresentado o processo de instalação para Windows. No mesmo site é possível encontrar procedimentos de instalação para outros sistemas operacionais.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;git&#34;&gt;Git&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&#34;&gt;Baixar e instalar o Git&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;No link acima é apresentado o processo de instalação do Git. Atenção às diferenças de arquivos e procedimentos de instalação para diferentes sistemas operacionais.&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tipos de dados, objetos e operadores no R</title>
+      <link>https://retaoliveira.github.io/site/courses/dados_pos/data_mining/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/courses/dados_pos/data_mining/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tipos de dados, objetos e operadores no R</title>
+      <link>https://retaoliveira.github.io/site/courses/dados_pos/funcoes_manipulacao/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/courses/dados_pos/funcoes_manipulacao/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Manipulação e limpeza de dados</title>
+      <link>https://retaoliveira.github.io/site/courses/dados_pos/estrutura_dados_r/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/courses/dados_pos/estrutura_dados_r/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Páginas em html para comunicação</title>
+      <link>https://retaoliveira.github.io/site/courses/dados_pos/pag_html/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/courses/dados_pos/pag_html/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introdução à mineração de dados</title>
+      <link>https://retaoliveira.github.io/site/courses/dados_pos/intro_rmarkdown/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/courses/dados_pos/intro_rmarkdown/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Análise de sentimento por meio de dados do Twitter</title>
+      <link>https://retaoliveira.github.io/site/courses/dados_pos/text_analysis/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/courses/dados_pos/text_analysis/</guid>
+      <description>&lt;p&gt;Nesta lição, você explorará a análise dos dados de mídia social acessados a partir do twitter, em R. Você usará a &lt;code&gt;API RESTful&lt;/code&gt; do &lt;code&gt;Twitter&lt;/code&gt; para acessar dados sobre os usuários do twitter e sobre o que eles estão tweetando.&lt;/p&gt;
+&lt;h3 id=&#34;atividades-preliminares&#34;&gt;Atividades preliminares&lt;/h3&gt;
+&lt;p&gt;Para começar, você precisará:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Criar uma conta no Twitter se você ainda não tiver uma.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html&#34;&gt;Usando sua conta, configure um aplicativo que você usará para acessar o Twitter a partir do R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Baixe e instale os pacotes &lt;code&gt;rtweet&lt;/code&gt; e &lt;code&gt;tidytext&lt;/code&gt; para &lt;code&gt;R&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Você está pronto para começar a consultar a &lt;code&gt;API&lt;/code&gt; do &lt;code&gt;Twitter&lt;/code&gt; para ver o que você pode aprender a partir dos tweets!&lt;/p&gt;
+&lt;h3 id=&#34;configure-o-aplicativo-do-twitter&#34;&gt;Configure o aplicativo do Twitter&lt;/h3&gt;
+&lt;p&gt;Vamos começar montando um aplicativo no twitter que você pode usar para acessar os tweets. Para configurar seu aplicativo, siga a documentação do &lt;code&gt;rtweet&lt;/code&gt; aqui.&lt;/p&gt;
+&lt;p&gt;Com o aplicativo do twitter configurado, você está pronto para acessar tweets pelo R. Você usará o pacote &lt;code&gt;rtweet&lt;/code&gt; para fazer isso.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r&#34; data-lang=&#34;{r&#34;&gt;# carregar a biblioteca do twitter - a biblioteca do rtweet é recomendada
+library(rtweet)
+# plotting and pipes - tidyverse!
+library(ggplot2)
+library(dplyr)
+# text mining library
+library(tidytext)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Estas keys estão localizadas em suas configurações do aplicativo do twitter na guia keys e Tokens de Acesso. Você precisará copiá-las em seu código como  abaixo substituindo o texto de preenchimento que usei nesta lição pelo texto que o twitter lhe dá em seu aplicativo.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r&#34; data-lang=&#34;{r&#34;&gt;# whatever name you assigned to your created app
+appname &amp;lt;- &amp;quot;your-app-name&amp;quot;
+
+## api key (example below is not a real key)
+key &amp;lt;- &amp;quot;yourLongApiKeyHere&amp;quot; # Não está ativo
+
+## api secret (example below is not a real key)
+secret &amp;lt;- &amp;quot;yourSecretKeyHere&amp;quot; # Não está ativo
+
+access_token &amp;lt;- &amp;quot;yourTokenHere&amp;quot; # Não está ativo
+access_secret &amp;lt;- &amp;quot;yourSecretTokenHere&amp;quot; # Não está ativo
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Em seguida, você precisará passar um conjunto de keys para a API.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r&#34; data-lang=&#34;{r&#34;&gt;# create token named &amp;quot;twitter_token&amp;quot;
+twitter_token &amp;lt;- create_token(
+  app = appname,
+  consumer_key = key,
+  consumer_secret = secret,
+  access_token = access_token,
+  access_secret = access_secret)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Finalmente, você pode criar um token que autentique o acesso aos tweets! Poste um tweet como teste. Lembre-se que o tweet precisa ser de 140 caracteres ou menos.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r&#34; data-lang=&#34;{r&#34;&gt;# post a tweet from R
+post_tweet(&amp;quot;Olá!&amp;quot;)
+## your tweet has been posted!
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;analisar-e-baixar-dados-do-twitter&#34;&gt;Analisar e baixar dados do Twitter&lt;/h3&gt;
+&lt;h4 id=&#34;baixar-textos-dos-tweets-considerando-um-termo-específico&#34;&gt;Baixar textos dos tweets considerando um termo específico&lt;/h4&gt;
+&lt;p&gt;Agora você está pronto para procurar no twitter por tweets recentes! Comecemos por encontrar todos os tweets que usam o hashtag &lt;code&gt;#rstats&lt;/code&gt;. Observe abaixo que você usa a função &lt;code&gt;rtweet::search_tweets()&lt;/code&gt; para procurar. &lt;code&gt;search_tweets()&lt;/code&gt; requer os seguintes argumentos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;q&lt;/strong&gt;: o termo que você deseja procurar&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;n&lt;/strong&gt;: o número de tweets que você quer que sejam devolvidos. Você pode solicitar até um máximo de 18.000 tweets.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para ver que outros argumentos você pode usar com esta função, use a ajuda R: &lt;code&gt;?search_tweets()&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r&#34; data-lang=&#34;{r&#34;&gt;## search for 500 tweets using the #rstats hashtag
+rstats_tweets &amp;lt;- search_tweets(q = &amp;quot;#rstats&amp;quot;, n = 500)
+# view the first 3 rows of the dataframe
+head(rstats_tweets, n = 3)
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;retweets&#34;&gt;Retweets&lt;/h4&gt;
+&lt;p&gt;Um &lt;code&gt;retweet&lt;/code&gt; é quando você ou outra pessoa compartilha o tweet de alguém para que seus seguidores possam vê-lo. É semelhante ao compartilhamento no Facebook onde você pode adicionar uma citação ou texto acima do retweet se quiser ou apenas compartilhar o post. Vamos usar a mesma consulta que você usou acima, mas desta vez ignore todos os retweets definindo o argumento &lt;code&gt;include_rts&lt;/code&gt;. para &lt;code&gt;FALSE&lt;/code&gt;. Você pode obter as estatísticas de tweet/retweet de seu dataframe, separadamente.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r&#34; data-lang=&#34;{r&#34;&gt;# find recent tweets with #rstats but ignore retweets
+rstats_tweets &amp;lt;- search_tweets(&amp;quot;#rstats&amp;quot;, n = 500,
+                             include_rts = FALSE)
+# view top 2 rows of data
+head(rstats_tweets, n = 2)
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;quem-está-twitando&#34;&gt;Quem está twitando?&lt;/h4&gt;
+&lt;p&gt;A seguir, vamos descobrir quem está tweetando sobre R usando o hashtag &lt;code&gt;#rstats&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r&#34; data-lang=&#34;{r&#34;&gt;# view column with screen names - top 6
+head(rstats_tweets$screen_name)
+## [1] &amp;quot;tangming2005&amp;quot;   &amp;quot;tangming2005&amp;quot;   &amp;quot;noah_greifer&amp;quot;   &amp;quot;yoniceedee&amp;quot;    
+## [5] &amp;quot;yoniceedee&amp;quot;     &amp;quot;peterlovesdata&amp;quot;
+# get a list of unique usernames
+unique(rstats_tweets$screen_name)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Você também pode usar a função &lt;code&gt;search_users()&lt;/code&gt; para ver o que os usuários estão tweetando usando uma hashtag específica. Esta função retorna apenas um data.frame dos usuários e informações sobre suas contas.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r&#34; data-lang=&#34;{r&#34;&gt;# what users are tweeting with #rstats
+users &amp;lt;- search_users(&amp;quot;#rstats&amp;quot;,
+                      n = 500)
+# just view the first 2 users - the data frame is large!
+head(users, n = 2)
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;localização-dos-usuários-do-twitter&#34;&gt;Localização dos usuários do Twitter&lt;/h4&gt;
+&lt;p&gt;Vamos aprender um pouco mais sobre essas pessoas tweetando sobre &lt;code&gt;R&lt;/code&gt;. Primeiro, de onde elas são?&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r&#34; data-lang=&#34;{r&#34;&gt;# how many locations are represented
+length(unique(users$location))
+## [1] 299
+
+users %&amp;gt;%
+  ggplot(aes(location)) +
+  geom_bar() + coord_flip() +
+      labs(x = &amp;quot;Count&amp;quot;,
+      y = &amp;quot;Location&amp;quot;,
+      title = &amp;quot;Twitter users - unique locations &amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Vamos gerar uma análise considerando a contagem de observações e plotar apenas as localidades mais frequentes. Para isso, utilize a função &lt;code&gt;top_n()&lt;/code&gt;. Observe que neste caso você está agrupando seus dados por usuário. Assim, &lt;code&gt;top_n()&lt;/code&gt; retornará locais com pelo menos 15 usuários associados a ele.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r&#34; data-lang=&#34;{r&#34;&gt;users %&amp;gt;%
+  count(location, sort = TRUE) %&amp;gt;%
+  mutate(location = reorder(location, n)) %&amp;gt;%
+  top_n(20) %&amp;gt;%
+  ggplot(aes(x = location, y = n)) +
+  geom_col() +
+  coord_flip() +
+      labs(x = &amp;quot;Count&amp;quot;,
+      y = &amp;quot;Location&amp;quot;,
+      title = &amp;quot;Where Twitter users are from - unique locations &amp;quot;)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Parece que temos alguns valores de &lt;code&gt;NA&lt;/code&gt; ou nenhum valor de dados em sua lista. Vamos remover aqueles com &lt;code&gt;na.omit()&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r&#34; data-lang=&#34;{r&#34;&gt;
+users %&amp;gt;%
+  count(location, sort = TRUE) %&amp;gt;%
+  mutate(location = reorder(location,n)) %&amp;gt;%
+  na.omit() %&amp;gt;%
+  top_n(20) %&amp;gt;%
+  ggplot(aes(x = location,y = n)) +
+  geom_col() +
+  coord_flip() +
+      labs(x = &amp;quot;Location&amp;quot;,
+      y = &amp;quot;Count&amp;quot;,
+      title = &amp;quot;Twitter users - unique locations &amp;quot;)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Olhando para seus dados, quais outras análises você sugere? Existem 314 locais únicos em sua lista. Entretanto, nem todos usuários especificaram suas localizações de maneira semelhante. Por exemplo, alguns acabaram de identificar seu país: Estados Unidos, por exemplo, e outros especificaram uma cidade e um estado. Você pode querer fazer uma limpeza destes dados para poder traçar melhor esta distribuição - especialmente se você quiser criar um mapa destes dados!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dados espaciais</title>
+      <link>https://retaoliveira.github.io/site/courses/dados_pos/geodata/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/courses/dados_pos/geodata/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Como coletar, manipular e representar dados de Tweets</title>
+      <link>https://retaoliveira.github.io/site/courses/dados_pos/analise-twitter/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/courses/dados_pos/analise-twitter/</guid>
+      <description>
+&lt;script src=&#34;https://retaoliveira.github.io/site/site/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;análise-de-sentimento-por-meio-de-dados-do-twitter&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Análise de sentimento por meio de dados do Twitter&lt;/h2&gt;
+&lt;p&gt;Nesta lição, você explorará a análise dos dados de mídia social acessados a partir do twitter, em R. Você usará a &lt;code&gt;API RESTful&lt;/code&gt; do &lt;code&gt;Twitter&lt;/code&gt; para acessar dados sobre os usuários do twitter e sobre o que eles estão tweetando.&lt;/p&gt;
+&lt;div id=&#34;atividades-preliminares&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Atividades preliminares&lt;/h3&gt;
+&lt;p&gt;Para começar, você precisará:
+1. Criar uma conta no Twitter se você ainda não tiver uma.
+2. &lt;a href=&#34;https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html&#34;&gt;Usando sua conta, configure um aplicativo que você usará para acessar o Twitter a partir do R&lt;/a&gt;
+3. Baixe e instale os pacotes &lt;code&gt;rtweet&lt;/code&gt; e &lt;code&gt;tidytext&lt;/code&gt; para &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Você está pronto para começar a consultar a &lt;code&gt;API&lt;/code&gt; do &lt;code&gt;Twitter&lt;/code&gt; para ver o que você pode aprender a partir dos tweets!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;configure-o-aplicativo-do-twitter&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Configure o aplicativo do Twitter&lt;/h3&gt;
+&lt;p&gt;Vamos começar montando um aplicativo no twitter que você pode usar para acessar os tweets. Para configurar seu aplicativo, siga a documentação do &lt;code&gt;rtweet&lt;/code&gt; aqui.&lt;/p&gt;
+&lt;p&gt;Com o aplicativo do twitter configurado, você está pronto para acessar tweets pelo R. Você usará o pacote &lt;code&gt;rtweet&lt;/code&gt; para fazer isso.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# carregar a biblioteca do twitter - a biblioteca do rtweet é recomendada
+library(rtweet)
+# plotting and pipes - tidyverse!
+library(ggplot2)
+library(dplyr)
+# text mining library
+library(tidytext)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Estas keys estão localizadas em suas configurações do aplicativo do twitter na guia keys e Tokens de Acesso. Você precisará copiá-las em seu código como abaixo substituindo o texto de preenchimento que usei nesta lição pelo texto que o twitter lhe dá em seu aplicativo.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# whatever name you assigned to your created app
+appname &amp;lt;- &amp;quot;your-app-name&amp;quot;
+
+## api key (example below is not a real key)
+key &amp;lt;- &amp;quot;yourLongApiKeyHere&amp;quot; # Não está ativo
+
+## api secret (example below is not a real key)
+secret &amp;lt;- &amp;quot;yourSecretKeyHere&amp;quot; # Não está ativo
+
+access_token &amp;lt;- &amp;quot;yourTokenHere&amp;quot; # Não está ativo
+access_secret &amp;lt;- &amp;quot;yourSecretTokenHere&amp;quot; # Não está ativo&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Em seguida, você precisará passar um conjunto de keys para a API.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# create token named &amp;quot;twitter_token&amp;quot;
+twitter_token &amp;lt;- create_token(
+  app = appname,
+  consumer_key = key,
+  consumer_secret = secret,
+  access_token = access_token,
+  access_secret = access_secret)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finalmente, você pode criar um token que autentique o acesso aos tweets! Poste um tweet como teste. Lembre-se que o tweet precisa ser de 140 caracteres ou menos.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# post a tweet from R
+post_tweet(&amp;quot;Olá!&amp;quot;)
+## your tweet has been posted!&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;analisar-e-baixar-dados-do-twitter&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Analisar e baixar dados do Twitter&lt;/h3&gt;
+&lt;div id=&#34;baixar-textos-dos-tweets-considerando-um-termo-específico&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Baixar textos dos tweets considerando um termo específico&lt;/h4&gt;
+&lt;p&gt;Agora você está pronto para procurar no twitter por tweets recentes! Comecemos por encontrar todos os tweets que usam o hashtag &lt;code&gt;#rstats&lt;/code&gt;. Observe abaixo que você usa a função &lt;code&gt;rtweet::search_tweets()&lt;/code&gt; para procurar. &lt;code&gt;search_tweets()&lt;/code&gt; requer os seguintes argumentos:
+1. &lt;strong&gt;q&lt;/strong&gt;: o termo que você deseja procurar
+2. &lt;strong&gt;n&lt;/strong&gt;: o número de tweets que você quer que sejam devolvidos. Você pode solicitar até um máximo de 18.000 tweets.&lt;/p&gt;
+&lt;p&gt;Para ver que outros argumentos você pode usar com esta função, use a ajuda R: &lt;code&gt;?search_tweets()&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;## search for 500 tweets using the #rstats hashtag
+rstats_tweets &amp;lt;- search_tweets(q = &amp;quot;#rstats&amp;quot;, n = 500)
+# view the first 3 rows of the dataframe
+head(rstats_tweets, n = 3)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;retweets&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Retweets&lt;/h4&gt;
+&lt;p&gt;Um &lt;code&gt;retweet&lt;/code&gt; é quando você ou outra pessoa compartilha o tweet de alguém para que seus seguidores possam vê-lo. É semelhante ao compartilhamento no Facebook onde você pode adicionar uma citação ou texto acima do retweet se quiser ou apenas compartilhar o post. Vamos usar a mesma consulta que você usou acima, mas desta vez ignore todos os retweets definindo o argumento &lt;code&gt;include_rts&lt;/code&gt;. para &lt;code&gt;FALSE&lt;/code&gt;. Você pode obter as estatísticas de tweet/retweet de seu dataframe, separadamente.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# find recent tweets with #rstats but ignore retweets
+rstats_tweets &amp;lt;- search_tweets(&amp;quot;#rstats&amp;quot;, n = 500,
+                             include_rts = FALSE)
+# view top 2 rows of data
+head(rstats_tweets, n = 2)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;quem-está-twitando&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Quem está twitando?&lt;/h4&gt;
+&lt;p&gt;A seguir, vamos descobrir quem está tweetando sobre R usando o hashtag &lt;code&gt;#rstats&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# view column with screen names - top 6
+head(rstats_tweets$screen_name)
+## [1] &amp;quot;tangming2005&amp;quot;   &amp;quot;tangming2005&amp;quot;   &amp;quot;noah_greifer&amp;quot;   &amp;quot;yoniceedee&amp;quot;    
+## [5] &amp;quot;yoniceedee&amp;quot;     &amp;quot;peterlovesdata&amp;quot;
+# get a list of unique usernames
+unique(rstats_tweets$screen_name)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Você também pode usar a função &lt;code&gt;search_users()&lt;/code&gt; para ver o que os usuários estão tweetando usando uma hashtag específica. Esta função retorna apenas um data.frame dos usuários e informações sobre suas contas.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# what users are tweeting with #rstats
+users &amp;lt;- search_users(&amp;quot;#rstats&amp;quot;,
+                      n = 500)
+# just view the first 2 users - the data frame is large!
+head(users, n = 2)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;localização-dos-usuários-do-twitter&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Localização dos usuários do Twitter&lt;/h4&gt;
+&lt;p&gt;Vamos aprender um pouco mais sobre essas pessoas tweetando sobre &lt;code&gt;R&lt;/code&gt;. Primeiro, de onde elas são?&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# how many locations are represented
+length(unique(users$location))
+## [1] 299
+
+users %&amp;gt;%
+  ggplot(aes(location)) +
+  geom_bar() + coord_flip() +
+      labs(x = &amp;quot;Count&amp;quot;,
+      y = &amp;quot;Location&amp;quot;,
+      title = &amp;quot;Twitter users - unique locations &amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Vamos gerar uma análise considerando a contagem de observações e plotar apenas as localidades mais frequentes. Para isso, utilize a função &lt;code&gt;top_n()&lt;/code&gt;. Observe que neste caso você está agrupando seus dados por usuário. Assim, &lt;code&gt;top_n()&lt;/code&gt; retornará locais com pelo menos 15 usuários associados a ele.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;users %&amp;gt;%
+  count(location, sort = TRUE) %&amp;gt;%
+  mutate(location = reorder(location, n)) %&amp;gt;%
+  top_n(20) %&amp;gt;%
+  ggplot(aes(x = location, y = n)) +
+  geom_col() +
+  coord_flip() +
+      labs(x = &amp;quot;Count&amp;quot;,
+      y = &amp;quot;Location&amp;quot;,
+      title = &amp;quot;Where Twitter users are from - unique locations &amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Parece que temos alguns valores de &lt;code&gt;NA&lt;/code&gt; ou nenhum valor de dados em sua lista. Vamos remover aqueles com &lt;code&gt;na.omit()&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;users %&amp;gt;%
+  count(location, sort = TRUE) %&amp;gt;%
+  mutate(location = reorder(location,n)) %&amp;gt;%
+  na.omit() %&amp;gt;%
+  top_n(20) %&amp;gt;%
+  ggplot(aes(x = location,y = n)) +
+  geom_col() +
+  coord_flip() +
+      labs(x = &amp;quot;Location&amp;quot;,
+      y = &amp;quot;Count&amp;quot;,
+      title = &amp;quot;Twitter users - unique locations &amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Olhando para seus dados, quais outras análises você sugere? Existem 314 locais únicos em sua lista. Entretanto, nem todos usuários especificaram suas localizações de maneira semelhante. Por exemplo, alguns acabaram de identificar seu país: Estados Unidos, por exemplo, e outros especificaram uma cidade e um estado. Você pode querer fazer uma limpeza destes dados para poder traçar melhor esta distribuição - especialmente se você quiser criar um mapa destes dados!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

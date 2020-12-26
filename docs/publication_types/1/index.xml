@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Profa. Renata Oliveira</title>
+    <link>https://retaoliveira.github.io/site/publication_types/1/</link>
+    <description>Recent content in 1 on Profa. Renata Oliveira</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;&lt;img alt=&#34;Licença Creative Commons&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Este obra está licenciado com uma Licença &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional&lt;/a&gt;. &amp;copy; {year}</copyright>
+    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://retaoliveira.github.io/site/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://retaoliveira.github.io/site/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/publication/conference-paper/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

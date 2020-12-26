@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Twitter on Profa. Renata Oliveira</title>
+    <link>https://retaoliveira.github.io/site/tags/twitter/</link>
+    <description>Recent content in Twitter on Profa. Renata Oliveira</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;&lt;img alt=&#34;Licença Creative Commons&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;Este obra está licenciado com uma Licença &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional&lt;/a&gt;. &amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 27 Dec 2020 13:39:12 -0300</lastBuildDate>
+    
+	    <atom:link href="https://retaoliveira.github.io/site/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acesso à API do Twitter</title>
+      <link>https://retaoliveira.github.io/site/acesso-a-api-do-twitter/</link>
+      <pubDate>Sun, 27 Dec 2020 13:39:12 -0300</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/acesso-a-api-do-twitter/</guid>
+      <description>&lt;h2 id=&#34;como-obter-e-usar-tokens-de-acesso-à-api-do-twitter-para-uso-no-pacote-rtweet&#34;&gt;Como obter e usar tokens de acesso à &lt;code&gt;API&lt;/code&gt; do &lt;code&gt;Twitter&lt;/code&gt; para uso no pacote &lt;code&gt;rtweet&lt;/code&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;criando-um-aplicativo-no-twitter&#34;&gt;Criando um aplicativo no Twitter&lt;/h3&gt;
+&lt;p&gt;Para criar um aplicativo no Twitter, você precisará primeiro solicitar uma conta de desenvolvedor. Este processo, juntamente com uma explicação detalhada pode ser encontrado em &lt;a href=&#34;developer.twitter.com&#34;&gt;developer.twitter.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Uma vez que você tenha adquirido uma conta de desenvolvedor, navegue até &lt;a href=&#34;developer.twitter.com/pt/apps&#34;&gt;developer.twitter.com/pt/apps&lt;/a&gt;. Clique no botão azul que diz: &lt;em&gt;Create a New App&lt;/em&gt;, e então preencha o formulário com os seguintes campos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;App Name&lt;/code&gt;: Como seu aplicativo será chamado&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Application Description&lt;/code&gt;: Como seu aplicativo será descrito para seus usuários&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Website URLs&lt;/code&gt;: Website associado ao app-I. Recomendo usar a URL em seu perfil no Twitter&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Callback URLs&lt;/code&gt;: &lt;strong&gt;IMPORTANTE&lt;/strong&gt; digite exatamente o seguinte: &lt;code&gt;http://127.0.0.1:1410&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Tell us how this app will be used&lt;/code&gt;: Seja claro e honesto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Quando você tiver preenchido os campos obrigatórios do formulário, clique no botão azul &lt;code&gt;Criar&lt;/code&gt;, na parte inferior. Leia atentamente e indique se você aceita os termos do desenvolvedor.&lt;/p&gt;
+&lt;p&gt;Mais detalhes podem ser encontrados na &lt;a href=&#34;https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html&#34;&gt;Vignette&lt;/a&gt; sobre esse processo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mineração de Texto</title>
+      <link>https://retaoliveira.github.io/site/mineracao-de-texto/</link>
+      <pubDate>Sun, 27 Dec 2020 13:08:19 -0300</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/mineracao-de-texto/</guid>
+      <description>&lt;h2 id=&#34;sentimentos-no-twitter-para-csv&#34;&gt;Sentimentos no Twitter para CSV&lt;/h2&gt;
+&lt;p&gt;O download do arquivo .csv do Twitter a partir de termos de busca pode ser feito no site &lt;a href=&#34;https://twitter-sentiment-csv.herokuapp.com/&#34;&gt;Tweet Sentiment to CSV&lt;/a&gt;. São 100 tweets sobre o termos pesquisado.&lt;/p&gt;
+&lt;h2 id=&#34;links-interessantes-sobre-esse-tópico-são&#34;&gt;Links interessantes sobre esse tópico são:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.abraji.org.br/help-desk/como-investigar-tweets-com-rtweet-e-r&#34;&gt;Como investigar tweets com rtweet r R by Abraji&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/rtweet/vignettes/intro.html&#34;&gt;Intro to rtweet: Collecting Twitter Data by Michael W. Kearney&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://paulovasconcellos.com.br/aprenda-a-fazer-um-analisador-de-sentimentos-do-twitter-em-python-3979454f2d0d&#34;&gt;Aprenda a fazer um Analisador de Sentimentos do Twitter em Python by Paulo Vasconcellos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.earthdatascience.org/courses/earth-analytics/get-data-using-apis/use-twitter-api-r/&#34;&gt;Twitter Data in R Using Rtweet by Leah Wasser, Carson Farmer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/marianacrtx/tweets&#34;&gt;Github Mariana Cartaxo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rstudio-pubs-static.s3.amazonaws.com/66739_c4422a1761bd4ee0b0bb8821d7780e12.html&#34;&gt;Text Mining example codes (tweets)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://neylsoncrepalde.github.io/2016-11-18-ocupacao-na-ufmg-e-interevencao-policial/&#34;&gt;Ocupação na UFMG e intervenção policial - Twitter by Neylson Crepalde&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/juditecypreste/Aprenda-Python-analisando-os-tuites-do-nosso-presidente&#34;&gt;Github Judite Cypreste&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@arthuremanuel.carosia/an%C3%A1lise-de-sentimentos-no-twitter-sobre-o-governo-bolsonaro-15396a22e757&#34;&gt;Análise de Sentimentos no Twitter Sobre o Governo Bolsonaro by Arthur Carosia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/a-guide-to-mining-and-analysing-tweets-with-r-2f56818fdd16&#34;&gt;A Guide to Mining and Analysing Tweets with R by Céline Van den Rul&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@celine.vdr/mining-tweets-of-us-candidates-on-mass-shootings-before-and-after-the-2018-midterms-90cc18ff652a&#34;&gt;Mining Tweets of US candidates on mass shootings before and after the 2018 midterms by Céline Van den Rul&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://neylsoncrepalde.github.io/2016-03-18-analise-de-conteudo-twitter/&#34;&gt;Análise de Conteúdo (twitteR) by Nelson Crepalde&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Como coletar, manipular e representar dados de Tweets</title>
+      <link>https://retaoliveira.github.io/site/courses/dados_pos/analise-twitter/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://retaoliveira.github.io/site/courses/dados_pos/analise-twitter/</guid>
+      <description>
+&lt;script src=&#34;https://retaoliveira.github.io/site/site/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;análise-de-sentimento-por-meio-de-dados-do-twitter&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Análise de sentimento por meio de dados do Twitter&lt;/h2&gt;
+&lt;p&gt;Nesta lição, você explorará a análise dos dados de mídia social acessados a partir do twitter, em R. Você usará a &lt;code&gt;API RESTful&lt;/code&gt; do &lt;code&gt;Twitter&lt;/code&gt; para acessar dados sobre os usuários do twitter e sobre o que eles estão tweetando.&lt;/p&gt;
+&lt;div id=&#34;atividades-preliminares&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Atividades preliminares&lt;/h3&gt;
+&lt;p&gt;Para começar, você precisará:
+1. Criar uma conta no Twitter se você ainda não tiver uma.
+2. &lt;a href=&#34;https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html&#34;&gt;Usando sua conta, configure um aplicativo que você usará para acessar o Twitter a partir do R&lt;/a&gt;
+3. Baixe e instale os pacotes &lt;code&gt;rtweet&lt;/code&gt; e &lt;code&gt;tidytext&lt;/code&gt; para &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Você está pronto para começar a consultar a &lt;code&gt;API&lt;/code&gt; do &lt;code&gt;Twitter&lt;/code&gt; para ver o que você pode aprender a partir dos tweets!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;configure-o-aplicativo-do-twitter&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Configure o aplicativo do Twitter&lt;/h3&gt;
+&lt;p&gt;Vamos começar montando um aplicativo no twitter que você pode usar para acessar os tweets. Para configurar seu aplicativo, siga a documentação do &lt;code&gt;rtweet&lt;/code&gt; aqui.&lt;/p&gt;
+&lt;p&gt;Com o aplicativo do twitter configurado, você está pronto para acessar tweets pelo R. Você usará o pacote &lt;code&gt;rtweet&lt;/code&gt; para fazer isso.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# carregar a biblioteca do twitter - a biblioteca do rtweet é recomendada
+library(rtweet)
+# plotting and pipes - tidyverse!
+library(ggplot2)
+library(dplyr)
+# text mining library
+library(tidytext)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Estas keys estão localizadas em suas configurações do aplicativo do twitter na guia keys e Tokens de Acesso. Você precisará copiá-las em seu código como abaixo substituindo o texto de preenchimento que usei nesta lição pelo texto que o twitter lhe dá em seu aplicativo.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# whatever name you assigned to your created app
+appname &amp;lt;- &amp;quot;your-app-name&amp;quot;
+
+## api key (example below is not a real key)
+key &amp;lt;- &amp;quot;yourLongApiKeyHere&amp;quot; # Não está ativo
+
+## api secret (example below is not a real key)
+secret &amp;lt;- &amp;quot;yourSecretKeyHere&amp;quot; # Não está ativo
+
+access_token &amp;lt;- &amp;quot;yourTokenHere&amp;quot; # Não está ativo
+access_secret &amp;lt;- &amp;quot;yourSecretTokenHere&amp;quot; # Não está ativo&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Em seguida, você precisará passar um conjunto de keys para a API.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# create token named &amp;quot;twitter_token&amp;quot;
+twitter_token &amp;lt;- create_token(
+  app = appname,
+  consumer_key = key,
+  consumer_secret = secret,
+  access_token = access_token,
+  access_secret = access_secret)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finalmente, você pode criar um token que autentique o acesso aos tweets! Poste um tweet como teste. Lembre-se que o tweet precisa ser de 140 caracteres ou menos.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# post a tweet from R
+post_tweet(&amp;quot;Olá!&amp;quot;)
+## your tweet has been posted!&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;analisar-e-baixar-dados-do-twitter&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Analisar e baixar dados do Twitter&lt;/h3&gt;
+&lt;div id=&#34;baixar-textos-dos-tweets-considerando-um-termo-específico&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Baixar textos dos tweets considerando um termo específico&lt;/h4&gt;
+&lt;p&gt;Agora você está pronto para procurar no twitter por tweets recentes! Comecemos por encontrar todos os tweets que usam o hashtag &lt;code&gt;#rstats&lt;/code&gt;. Observe abaixo que você usa a função &lt;code&gt;rtweet::search_tweets()&lt;/code&gt; para procurar. &lt;code&gt;search_tweets()&lt;/code&gt; requer os seguintes argumentos:
+1. &lt;strong&gt;q&lt;/strong&gt;: o termo que você deseja procurar
+2. &lt;strong&gt;n&lt;/strong&gt;: o número de tweets que você quer que sejam devolvidos. Você pode solicitar até um máximo de 18.000 tweets.&lt;/p&gt;
+&lt;p&gt;Para ver que outros argumentos você pode usar com esta função, use a ajuda R: &lt;code&gt;?search_tweets()&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;## search for 500 tweets using the #rstats hashtag
+rstats_tweets &amp;lt;- search_tweets(q = &amp;quot;#rstats&amp;quot;, n = 500)
+# view the first 3 rows of the dataframe
+head(rstats_tweets, n = 3)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;retweets&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Retweets&lt;/h4&gt;
+&lt;p&gt;Um &lt;code&gt;retweet&lt;/code&gt; é quando você ou outra pessoa compartilha o tweet de alguém para que seus seguidores possam vê-lo. É semelhante ao compartilhamento no Facebook onde você pode adicionar uma citação ou texto acima do retweet se quiser ou apenas compartilhar o post. Vamos usar a mesma consulta que você usou acima, mas desta vez ignore todos os retweets definindo o argumento &lt;code&gt;include_rts&lt;/code&gt;. para &lt;code&gt;FALSE&lt;/code&gt;. Você pode obter as estatísticas de tweet/retweet de seu dataframe, separadamente.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# find recent tweets with #rstats but ignore retweets
+rstats_tweets &amp;lt;- search_tweets(&amp;quot;#rstats&amp;quot;, n = 500,
+                             include_rts = FALSE)
+# view top 2 rows of data
+head(rstats_tweets, n = 2)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;quem-está-twitando&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Quem está twitando?&lt;/h4&gt;
+&lt;p&gt;A seguir, vamos descobrir quem está tweetando sobre R usando o hashtag &lt;code&gt;#rstats&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# view column with screen names - top 6
+head(rstats_tweets$screen_name)
+## [1] &amp;quot;tangming2005&amp;quot;   &amp;quot;tangming2005&amp;quot;   &amp;quot;noah_greifer&amp;quot;   &amp;quot;yoniceedee&amp;quot;    
+## [5] &amp;quot;yoniceedee&amp;quot;     &amp;quot;peterlovesdata&amp;quot;
+# get a list of unique usernames
+unique(rstats_tweets$screen_name)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Você também pode usar a função &lt;code&gt;search_users()&lt;/code&gt; para ver o que os usuários estão tweetando usando uma hashtag específica. Esta função retorna apenas um data.frame dos usuários e informações sobre suas contas.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# what users are tweeting with #rstats
+users &amp;lt;- search_users(&amp;quot;#rstats&amp;quot;,
+                      n = 500)
+# just view the first 2 users - the data frame is large!
+head(users, n = 2)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;localização-dos-usuários-do-twitter&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Localização dos usuários do Twitter&lt;/h4&gt;
+&lt;p&gt;Vamos aprender um pouco mais sobre essas pessoas tweetando sobre &lt;code&gt;R&lt;/code&gt;. Primeiro, de onde elas são?&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# how many locations are represented
+length(unique(users$location))
+## [1] 299
+
+users %&amp;gt;%
+  ggplot(aes(location)) +
+  geom_bar() + coord_flip() +
+      labs(x = &amp;quot;Count&amp;quot;,
+      y = &amp;quot;Location&amp;quot;,
+      title = &amp;quot;Twitter users - unique locations &amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Vamos gerar uma análise considerando a contagem de observações e plotar apenas as localidades mais frequentes. Para isso, utilize a função &lt;code&gt;top_n()&lt;/code&gt;. Observe que neste caso você está agrupando seus dados por usuário. Assim, &lt;code&gt;top_n()&lt;/code&gt; retornará locais com pelo menos 15 usuários associados a ele.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;users %&amp;gt;%
+  count(location, sort = TRUE) %&amp;gt;%
+  mutate(location = reorder(location, n)) %&amp;gt;%
+  top_n(20) %&amp;gt;%
+  ggplot(aes(x = location, y = n)) +
+  geom_col() +
+  coord_flip() +
+      labs(x = &amp;quot;Count&amp;quot;,
+      y = &amp;quot;Location&amp;quot;,
+      title = &amp;quot;Where Twitter users are from - unique locations &amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Parece que temos alguns valores de &lt;code&gt;NA&lt;/code&gt; ou nenhum valor de dados em sua lista. Vamos remover aqueles com &lt;code&gt;na.omit()&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;users %&amp;gt;%
+  count(location, sort = TRUE) %&amp;gt;%
+  mutate(location = reorder(location,n)) %&amp;gt;%
+  na.omit() %&amp;gt;%
+  top_n(20) %&amp;gt;%
+  ggplot(aes(x = location,y = n)) +
+  geom_col() +
+  coord_flip() +
+      labs(x = &amp;quot;Location&amp;quot;,
+      y = &amp;quot;Count&amp;quot;,
+      title = &amp;quot;Twitter users - unique locations &amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Olhando para seus dados, quais outras análises você sugere? Existem 314 locais únicos em sua lista. Entretanto, nem todos usuários especificaram suas localizações de maneira semelhante. Por exemplo, alguns acabaram de identificar seu país: Estados Unidos, por exemplo, e outros especificaram uma cidade e um estado. Você pode querer fazer uma limpeza destes dados para poder traçar melhor esta distribuição - especialmente se você quiser criar um mapa destes dados!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
